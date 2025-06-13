@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "concurrently \"nodemon HospitalsServer.js\" \"nodemon loginServer.js\" \"nodemon DonorFormServer.js\" \"nodemon DonorsServer.js\" \"nodemon ContactServer.js\" \"nodemon ContactListServer.js\"  \"nodemon HospitalProfileServer.js\" \"nodemon PatientProfileServer.js\" ",
+    "server": "concurrently \"nodemon HospitalsServer.js\" \"nodemon loginServer.js\" \"nodemon DonorFormServer.js\" \"nodemon DonorsServer.js\" \"nodemon ContactServer.js\" \"nodemon ContactListServer.js\" \"nodemon HospitalProfileServer.js\" \"nodemon PatientProfileServer.js\"",
     "dev": "concurrently \"npm run server\" \"npm start\""
   },
   "eslintConfig": {
